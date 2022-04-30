@@ -22,7 +22,6 @@ function esValido(c) {
           }
     } else {
       elem.classList.remove('invalido');
-
     }
   }
 

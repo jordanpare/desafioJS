@@ -1,6 +1,6 @@
 function aEncriptar (){
-    var textoArea = document.getElementById("area").value;
-   if(textoArea.trim() != ''){
+  var textoArea = document.getElementById("area").value;
+  if(textoArea.trim() != ''){
      var resultado1='';
      var texto=codificar(textoArea);
      document.getElementById("resultado1").innerHTML = texto;
