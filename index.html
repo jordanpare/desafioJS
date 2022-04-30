@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">    
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/estilo-boton.css">
+        <sscript src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></sscript>
+       
+    </head>
+
+
+    <body>
+        <header>
+            <h1><img id="logo" src="imagenes/Vector.svg"></h1>
+        </header>
+                          
+        <main class="Principal">
+
+            <section class="seccion-principal">
+
+                    <textarea class="area" id="area" placeholder="Ingrese su texto aqui..." oninput="validarTextarea(this)"></textarea>
+                    
+                    <div class="contenedor-botones">
+                    
+                    <label class="icono">❗Solo letras minúsculas y sin acentos</label>
+                    
+                    <input type="button" class="bencriptar" value="Encriptar!" >
+                    <input type="button" class="desencriptar" value="Desencriptar!">
+                    </div>
+
+            </section>
+
+            <aside class="aside">
+
+                    <textarea class="resultado" id="resultado1"  placeholder="Resultado..."></textarea>
+                    
+                    <div class="boton-aside">
+                    <input type="button" class="copiar" value="Copiar" onclick="copiarTexto()">
+                    </div>  
+
+            </aside>    
+                  
+        </main>
+               
+       
+        <footer>
+            <img id="logo2" src="imagenes/jj3.jpg">
+            <p class="copyrigth">&copy Copyrigth Encriptador JP - 2022</p>
+        </footer>
+    </body>
+    <script src="js/validar.js"></script>
+    <script src="js/encriptar.js"></script>
+    <script src="js/desencriptar.js"></script>
+</html>

@@ -1,0 +1,59 @@
+.contenedor-botones{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 20%;
+}
+
+.boton-aside{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 20%;
+}
+
+.desencriptar, .copiar{
+    font-size: 1rem;
+    margin: 0 auto;
+    margin: 2rem 1rem 0 1rem;
+    width: 12rem;
+    min-width: 7rem;
+    height: 3em;
+    border-radius: 1.5rem;
+    transition: 1s all;
+}
+
+.bencriptar {
+    font-size: 1rem;
+    margin: 0 auto;
+    margin: 2rem 1rem 0 1rem;
+    width: 12rem;
+    min-width: 7rem;
+    height: 3em;
+    border-radius: 1.5rem;
+    transition: 1s all;
+    background-color: #214775;
+    color: rgb(235, 243, 246); ;
+    
+}
+
+
+.bencriptar:active {
+    transition: .2s all;
+    background-color: rgb(149, 207, 232);
+    color: #08182b;
+  
+}
+
+.copiar:active {
+    transition: .2s all;
+    background-color: rgb(0, 146, 209);
+    color: white;
+
+}
+
+.desencriptar:active{
+    transition: .2s all;
+    background-color: rgb(0, 146, 209);
+    color: rgb(245, 231, 228);
+}
